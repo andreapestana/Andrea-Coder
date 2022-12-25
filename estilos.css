@@ -1,0 +1,346 @@
+/* ====================================================== */
+/*                          Body                          */
+/* ====================================================== */
+
+body {
+    margin: 0;
+    font-family: cursive;
+    background-color: #fff5fa;
+}
+
+/* ====================================================== */
+/*                         Header                         */
+/* ====================================================== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header.line-type {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 0px;
+}
+
+
+nav.menu {
+    display: flex;
+    align-items: center;
+
+    border: solid;
+    min-height: 32px;
+}
+
+header.line-type nav.menu {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+}
+
+header.line-type nav.menu ul {
+    border: solid;
+}
+
+nav.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu ul li {
+    display: inline;
+}
+
+nav.menu ul li a {
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+}
+
+header #imagen_principal {
+    width: 387px;
+    padding: 30px;
+}
+
+header.line-type #imagen_principal {
+    overflow: hidden;
+    height: 130px;
+    width: 230px;
+    padding: 15px;
+    min-width: 230px;
+}
+
+header #imagen_principal img {
+    width: 387px;
+    height: 174px;
+}
+
+header.line-type #imagen_principal img {
+    width: 100%;
+    height: auto;
+}
+
+header #imagen_principal p {
+    text-align: center;
+    font-size: 24px;
+    color: #d5a6bd;
+    margin: 0;
+}
+
+/* ====================================================== */
+/*                          Main                          */
+/* ====================================================== */
+main {
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+main h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+main section.brands {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main section.brands .item-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    min-width: 157px;
+    max-width: 200px;
+}
+
+main section.brands .item-brand img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+/* ====================================================== */
+/*                         Footer                         */
+/* ====================================================== */
+footer .contact-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+footer .contact-info-container .contact-info-section {
+    min-width: 250px;
+    margin: 20px 0;
+}
+
+footer .contact-info-container .contact-info-section.payment-methods li:nth-child(1) {
+    list-style-type: '⭐';
+    margin-right: 10px;
+}
+
+footer .contact-info-container .contact-info-section.payment-methods li:nth-child(2) {
+    list-style-type: '💚';
+    margin-right: 10px;
+}
+
+footer .contact-info-container .contact-info-section.payment-methods li:nth-child(3) {
+    list-style-type: '🔴';
+    margin-right: 10px;
+}
+
+footer .contact-info-container .contact-info-section fieldset {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+footer .copyright-container p {
+    text-align: center;
+}
+
+footer .social-media ul li a img {
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+}
+
+footer .social-media ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/* ====================================================== */
+/*                        Catalogo                        */
+/* ====================================================== */
+main.catalogo {
+    align-items: center;
+}
+
+main.catalogo h1 {
+    text-align: center;
+}
+
+main.catalogo .category img {
+    display: block;
+    margin: auto;
+    max-width: 295px;
+}
+
+main.catalogo .syam .category {
+    padding: 30px;
+}
+
+main.catalogo .syam .category img {
+    max-width: 220px;
+}
+
+
+main.catalogo .card-product-container {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+main.catalogo .card-product-container .card-product {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    max-width: 400px;
+    min-width: 200px;
+    height: 420px;
+}
+
+main.catalogo .card-product-container .card-product p {
+    text-align: center;
+    font-size: 24px;
+}
+
+main.catalogo .card-product-container .card-product .body {
+    padding: 20px;
+    overflow: hidden;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+main.catalogo .card-product-container .card-product .body img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ====================================================== */
+/*                        Contacto                        */
+/* ====================================================== */
+
+
+main .table-product {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+main .table-product td,
+tr {
+    border: 3px solid;
+    text-align: left;
+    /* font-family: cursive;
+    font-weight: bolder; */
+    height: 30px;
+}
+
+main table tr .item-product {
+    display: flex;
+    padding: 15px;
+}
+
+.title-font {
+    font-family: cursive;
+    text-align: center;
+}
+
+/* ====================================================== */
+/*                        ali Daticos                      */
+/* ====================================================== */
+main section .ali-daticos-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: 180%;
+}
+
+main section .ali-daticos-text {
+    font-family: cursive;
+    border: solid 3px;
+    text-align: center;
+}
+
+main section .video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main section .video div {
+    margin-bottom: 20px;
+}
+
+/* ====================================================== */
+/*                        Nosotros                        */
+/* ====================================================== */
+main section .nosotros_title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: large;
+}
+
+main section .nosotros_texto {
+    font-family: cursive;
+    border: solid 3px;
+}
+
+.table-overflow {
+    overflow: auto;
+}
+
+
+
+/* ====================================================== */
+/*                         Media Small                    */
+/* ====================================================== */
+
+@media only screen and (max-width: 425px) {
+
+    /* ====================================================== */
+    /*                         Header Small                   */
+    /* ====================================================== */
+    header {
+        align-items: unset;
+    }
+
+    nav.menu ul {
+        display: block;
+    }
+
+    header #imagen_principal img {
+        max-width: 339px;
+    }
+}
+
